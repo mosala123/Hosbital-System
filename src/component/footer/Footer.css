@@ -1,0 +1,184 @@
+.footer {
+    background-color: #f8f9fa; /* لون الخلفية */
+    padding: 20px 0;
+    color: #333; /* لون النص */
+    z-index: -1;
+  }
+  
+  .footer-logo {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-contact-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-contact-title {
+    color: #ffc107; /* لون العنوان */
+    font-weight: bold;
+  }
+  
+  .footer-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .footer-subscribe-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-subscribe-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .footer-subscribe-button {
+    padding: 10px;
+    background-color: #007bff; /* لون الزر */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 26px;
+    color: #007bff;
+  }
+  
+  /* Media Queries للتجاوب */
+  @media (max-width: 768px) {
+    .footer-section {
+      margin-bottom: 30px;
+    }
+  }
+
+
+  
+  .footertop {
+    position: relative;
+  }
+  
+  .footeranimation1 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 20px ;
+    left: 20px ;
+    animation: leftright 3s infinite alternate-reverse;
+  }
+  
+  @keyframes leftright {
+    0% {
+      transform: translateX(-13px);
+    }
+    100% {
+      transform: translateX(14px);
+    }
+  }
+  /* 2 */
+  .footer2{
+    position: relative;
+  }
+  .footeranimation2{
+    position: absolute;
+    top: 78px;
+    left: 10px;
+    animation: updown 3s infinite alternate-reverse;
+z-index: -1;
+  }
+  @keyframes updown {
+    0% {
+      transform: translateY(-13px);
+    }
+    100% {
+      transform: translateY(14px);
+    }
+  }
+  /* 3 */
+
+  .footer3{
+    position: relative;
+  }
+  .footeranimation3{
+    position: absolute;
+    top: -7px;
+    right:  1px;
+    animation: route 4s infinite alternate-reverse;
+
+  }
+  @keyframes route {
+    0% {
+      transform:rotate(0);
+    }
+    50%{
+      transform: rotate(180deg);
+
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* 4 */
+
+    /* 2 */
+    .footer{
+      position: relative;
+    }
+    .footeranimation4{
+      position: absolute;
+      bottom: 7px;
+      right:  30px;
+      animation: leftright 3s infinite alternate-reverse;
+  
+    }
+    @keyframes leftright {
+      0% {
+        transform: translateX(-23px);
+      }
+      100% {
+        transform: translateX(10px);
+      }
+    }
