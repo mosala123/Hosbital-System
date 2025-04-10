@@ -25,7 +25,7 @@ function App() {
       <Homepages />
       <AboutUs />
       <Doctors />
-      <LatestNews />
+      {/* <LatestNews /> */}
       <Footer />
     </>
   );
